@@ -9,7 +9,7 @@ function verificarMulta(velocidadePermitida, velocidadeCondutor) {
 }
 
 
-let velocidadePermitida = 100; // Velocidade permitida na estrada
-let velocidadeCondutor = 95;  // Velocidade do condutor
+let velocidadePermitida = 100;
+let velocidadeCondutor = 80;  
 
 verificarMulta(velocidadePermitida, velocidadeCondutor);
