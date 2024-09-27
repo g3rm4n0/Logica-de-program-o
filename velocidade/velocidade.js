@@ -1,7 +1,7 @@
-function verificarMulta(velocidadePermitida, velocidadeCondutor) {
-    if (velocidadeCondutor <= velocidadePermitida) {
+function verificarMulta(vPermitida, vCondutor) {
+    if (vCondutor <= vPermitida) {
         console.log("Sem Multa");
-    } else if (velocidadeCondutor <= velocidadePermitida * 1.2) {
+    } else if (vCondutor <= vPermitida * 1.2) {
         console.log("Multa Leve");
     } else {
         console.log("Multa Grave");
@@ -9,7 +9,7 @@ function verificarMulta(velocidadePermitida, velocidadeCondutor) {
 }
 
 
-let velocidadePermitida = 100;
-let velocidadeCondutor = 80;  
+let vPermitida = 100;
+let vCondutor = 80;  
 
-verificarMulta(velocidadePermitida, velocidadeCondutor);
+verificarMulta(vPermitida, vCondutor);
